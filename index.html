@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Frontend Mentor | Bento grid</title>
+</head>
+<body class=" bg-gray-100 flex flex-col justify-between">
+
+
+<div class=" flex-grow flex flex-col items-center justify-center sm:flex-row">
+  <div class=" sm:grid sm:grid-rows-3 grid-cols-1 sm:grid-cols-4 gap-3 max-w-2xl  sm:h-auto p-2 rounded-lg shadow-lg">
+
+      <div class="order-1 sm:order-3  col-start-2 sm:col-span-2 rounded-lg bg-purple-500 p-6 text-white font-sans font-semibold text-3xl mb-3">
+        <p class="text-center">Social Media <span class="text-yellow-500">10x</span></p>
+        <p class="text-center">Faster with AI</p>
+        <img src="assets/images/illustration-five-stars.webp" alt="star" class="mx-auto max-w-full h-4 mt-2">
+        <p class="text-sm text-center">Over 4,000 5-star reviews</p>
+      </div>
+      <div class="order-2 sm:order-4 row-span-1 sm:row-span-2 sm:col-start-4 rounded-lg bg-purple-100 p-2 font-sans font-semibold text-2xl sm:text-xl overflow-hidden">
+        <p class="sm:ml-3 ml-8">Schedule to social media.</p> 
+        <img src="assets/images/illustration-schedule-posts.webp" alt="follower illustration" class="w-96 sm:w-full h-48 sm:h-auto mx-auto sm:mr-3 sm:ml-3 sm:mt-2 sm:overflow-hidden sm:mb-2">
+        <p class="text-lg sm:text-sm sm:ml-3 sm:mr-3 mr-8  ml-12 mb-0 leading-tight">Optimize post timings to publish content at the perfect time for your audience.</p>
+      </div>
+      <div class="order-3 sm:order-5  sm:col-start-2 rounded-lg bg-white p-2 font-sans font-semibold text-lg">
+        <img src="assets/images/illustration-multiple-platforms.webp" class="max-w-full h-auto mt-2">
+        Manage multiple accounts and platforms.
+      </div>
+      <div class="order-4 sm:order-6 rounded-lg sm:col-start-3 bg-yellow-500 p-2 font-sans font-semibold text-lg overflow-hidden">
+        <p class="mb-0 leading-tight">Maintain a consistent posting schedule.</p>
+        <img src="assets/images/illustration-consistent-schedule.webp" class="w-full h-24 mt-1 object-contain overflow-hidden">
+      </div>
+      <div class="order-6 sm:order-7 rounded-lg sm:col-start-2 bg-white p-2 gap-2 font-sans font-semibold text-xs">
+        <p class="text-4xl">>56%</p> faster audience growth
+        <img src="assets/images/illustration-audience-growth.webp" class="max-w-full h-auto mt-4">
+      </div>
+      <div class="order-5 sm:order-8 col-span-2 rounded-lg sm:col-start-3 bg-purple-500 p-2 font-sans font-semibold text-xl text-white sm:flex items-center ">
+        <img src="assets/images/illustration-grow-followers.webp" alt="grow followers" class="sm:w-28 sm:h-28  w-48 h-auto object-contain mx-auto "> 
+        <span>Grow followers with non-stop content.</span>
+      </div>
+      <div class="sm:row-span-3 sm:col-start-1 flex flex-col space-y-2">
+        <div class="sm:order-1 order-7 rounded-sm bg-yellow-100 mb-1 flex flex-col justify-between h-full">
+          <h4 class="font-sans font-medium text-2xl mt-3 sm:ml-3 ml-5">Create and schedule content <i class="text-purple-500">quicker.</i></h4>
+          <img src="assets/images/illustration-create-post.webp" alt="Illustration of creating a post" class="mx-2 w-3/4 mt-2">
+        </div>
+        <div class="sm:order-2 order-8 rounded-lg bg-yellow-500 p-4 font-sans font-semibold text-xl flex flex-col justify-between h-full">
+          Write your content using AI.
+          <img src="assets/images/illustration-ai-content.webp" class="max-w-full h-auto mt-2">
+        </div>
+      </div>
+      
+    </div>
+
+</div>
+
+<div class="  mt-auto attribution text-center ">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+  Coded by <a href="#">Jinny</a>.
+</div>
+
+</body>
+</html>
